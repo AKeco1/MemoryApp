@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1144CE28CE52BF00A0D21C /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1144CD28CE52BE00A0D21C /* CardModel.swift */; };
+		CD232C3028CEF9AC00E8572C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD232C2F28CEF9AC00E8572C /* CardView.swift */; };
+		CD232C3228CF457200E8572C /* SettingsBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD232C3128CF457200E8572C /* SettingsBoard.swift */; };
+		CD232C3428CF4ABC00E8572C /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD232C3328CF4ABC00E8572C /* SettingsModel.swift */; };
+		CD7B713428C7C06D0073E734 /* background1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CD7B713328C7C06D0073E734 /* background1.mp4 */; };
+		CD7B713628C7CA150073E734 /* backgroundearth.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CD7B713528C7CA150073E734 /* backgroundearth.mp4 */; };
+		CD7B713828C7D61F0073E734 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B713728C7D61F0073E734 /* GameBoard.swift */; };
 		CD9A735028C73A0A009EF812 /* IosTryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9A734F28C73A0A009EF812 /* IosTryApp.swift */; };
 		CD9A735228C73A0A009EF812 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9A735128C73A0A009EF812 /* ContentView.swift */; };
 		CD9A735428C73A0D009EF812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9A735328C73A0D009EF812 /* Assets.xcassets */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD1144CD28CE52BE00A0D21C /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		CD232C2F28CEF9AC00E8572C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CD232C3128CF457200E8572C /* SettingsBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBoard.swift; sourceTree = "<group>"; };
+		CD232C3328CF4ABC00E8572C /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		CD7B713328C7C06D0073E734 /* background1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background1.mp4; sourceTree = "<group>"; };
+		CD7B713528C7CA150073E734 /* backgroundearth.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = backgroundearth.mp4; sourceTree = "<group>"; };
+		CD7B713728C7D61F0073E734 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 		CD9A734C28C73A0A009EF812 /* IosTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9A734F28C73A0A009EF812 /* IosTryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosTryApp.swift; sourceTree = "<group>"; };
 		CD9A735128C73A0A009EF812 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,10 +108,17 @@
 		CD9A734E28C73A0A009EF812 /* IosTry */ = {
 			isa = PBXGroup;
 			children = (
+				CD1144CD28CE52BE00A0D21C /* CardModel.swift */,
 				CD9A734F28C73A0A009EF812 /* IosTryApp.swift */,
 				CD9A735128C73A0A009EF812 /* ContentView.swift */,
+				CD7B713528C7CA150073E734 /* backgroundearth.mp4 */,
+				CD7B713328C7C06D0073E734 /* background1.mp4 */,
 				CD9A735328C73A0D009EF812 /* Assets.xcassets */,
 				CD9A735528C73A0D009EF812 /* Preview Content */,
+				CD7B713728C7D61F0073E734 /* GameBoard.swift */,
+				CD232C2F28CEF9AC00E8572C /* CardView.swift */,
+				CD232C3128CF457200E8572C /* SettingsBoard.swift */,
+				CD232C3328CF4ABC00E8572C /* SettingsModel.swift */,
 			);
 			path = IosTry;
 			sourceTree = "<group>";
@@ -232,6 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD9A735728C73A0D009EF812 /* Preview Assets.xcassets in Resources */,
+				CD7B713428C7C06D0073E734 /* background1.mp4 in Resources */,
+				CD7B713628C7CA150073E734 /* backgroundearth.mp4 in Resources */,
 				CD9A735428C73A0D009EF812 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD9A735228C73A0A009EF812 /* ContentView.swift in Sources */,
+				CD1144CE28CE52BF00A0D21C /* CardModel.swift in Sources */,
+				CD7B713828C7D61F0073E734 /* GameBoard.swift in Sources */,
+				CD232C3028CEF9AC00E8572C /* CardView.swift in Sources */,
 				CD9A735028C73A0A009EF812 /* IosTryApp.swift in Sources */,
+				CD232C3428CF4ABC00E8572C /* SettingsModel.swift in Sources */,
+				CD232C3228CF457200E8572C /* SettingsBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IosTry/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JQ6UFYLV6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IosTry/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JQ6UFYLV6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
